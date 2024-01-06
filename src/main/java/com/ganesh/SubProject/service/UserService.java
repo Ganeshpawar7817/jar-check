@@ -6,7 +6,7 @@ import com.ganesh.SubProject.dao.UserDao;
 
 @Service
 public class UserService {
-	
+	@Autowired
 	UserDao userDao;
 	
 	public String check() {
